@@ -1,5 +1,5 @@
 import React from 'react';
-import Cards from './Cards';
+import { Cards,topbar } from './Cards';
 import './index.css';
 
 
@@ -8,11 +8,11 @@ function App() {
 
     return (
         <React.Fragment>
-            
-            <div className="netflix1">
-        <Cards imgsrc="https://asianwiki.com/images/d/d9/Start-Up-CP1.jpg"
-                    links="https://www.netflix.com/in/title/81290293"
-                    sname="Start-UP" />
+            <div className="topBar">Netflix{topbar}</div>
+                <div className="netflix1">
+                <Cards imgsrc="https://asianwiki.com/images/d/d9/Start-Up-CP1.jpg"
+                links="https://www.netflix.com/in/title/81290293"
+                sname="Start-UP" />
 
                 <Cards imgsrc="https://m.media-amazon.com/images/M/MV5BNTBlZmE4YzItNTY5Mi00NmIxLTlhZTAtOWIxNjFlNTMzNmI1XkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_.jpg"
                     links="https://www.netflix.com/in/title/80180171"

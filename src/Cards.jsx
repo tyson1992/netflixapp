@@ -16,3 +16,20 @@ function Cards(props) {
 }
 
 export default Cards;
+
+
+function topbar() {
+
+    return (
+        
+        <React.Fragment> 
+            <div>
+                <div>
+                    <h2>Netflix</h2>
+                    </div>
+                </div>
+        </React.Fragment>
+        );
+}
+
+export { Cards, topbar };

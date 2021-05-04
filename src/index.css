@@ -3,7 +3,7 @@ body{
 
     font-family:sans-serif;
    
-    background-color:lightgray;
+    background-color:black;
     
 }
 img{
@@ -37,7 +37,7 @@ img{
 
 .cardblock {
     border-bottom: black solid 1px;
-    background-color: black;
+    background-color: #171717;
     border-radius: 5%;
     transition: transform 0.5s;
 }
@@ -53,4 +53,26 @@ img{
     transition:transform 0.50s;
 }
 
+.topBar{
 
+    background-color:black;
+    width:200vh;
+    height:1em;
+    
+    border:1px solid black;
+    color:red;
+    font-size:40px;
+    padding:1%;
+    border-bottom-color:white;
+    
+    
+}
+
+
+@media only screen and (max-width: 600px) {
+    img {
+        max-block-size: 100px;
+        width: 5em;
+        height: 10em;
+    }
+}
