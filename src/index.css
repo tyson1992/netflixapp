@@ -1,0 +1,56 @@
+
+body{
+
+    font-family:sans-serif;
+   
+    background-color:lightgray;
+    
+}
+img{
+
+    max-block-size:300px;
+    width:15em;
+    height:20em;
+    
+}
+
+.netflix1{
+    
+    display:flex;
+    flex-direction:row;
+    column-gap:5em;
+    margin-left:8%;
+    margin-top:5em;
+    color:white;
+    position:relative;
+    box-shadow:black 6px;
+}
+.netflix2 {
+    display: flex;
+    flex-direction: row;
+    column-gap: 5em;
+    margin-left: 8%;
+    max-block-size: 30px;
+    color: white;
+    
+}
+
+.cardblock {
+    border-bottom: black solid 1px;
+    background-color: black;
+    border-radius: 5%;
+    transition: transform 0.5s;
+}
+
+    .cardblock:hover {
+        transform: scale(1.2);
+    }
+
+
+
+.zoom{
+
+    transition:transform 0.50s;
+}
+
+
