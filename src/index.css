@@ -2,37 +2,40 @@
 body{
 
     font-family:sans-serif;
-   
+    display:block;
     background-color:black;
-    
+    margin:0;
+    width:100%;
 }
-img{
 
-    max-block-size:300px;
-    width:15em;
-    height:20em;
-    
-}
+
+
 
 .netflix1{
     
     display:flex;
     flex-direction:row;
-    column-gap:5em;
+    column-gap:2em;
     margin-left:8%;
     margin-top:5em;
     color:white;
-    position:relative;
-    box-shadow:black 6px;
+    align-content:center;
+    align-items:center;
+    justify-content:flex-start;
+    justify-items:center;
+   
 }
+
 .netflix2 {
     display: flex;
     flex-direction: row;
-    column-gap: 5em;
+    column-gap: 2em;
     margin-left: 8%;
-    max-block-size: 30px;
     color: white;
-    
+    align-content: center;
+    align-items: center;
+    justify-content: flex-start;
+    justify-items: center;
 }
 
 .cardblock {
@@ -51,14 +54,17 @@ img{
 .zoom{
 
     transition:transform 0.50s;
+    max-block-size:300px;
+    width:180px;
+    height:auto;
 }
 
 .topBar{
 
     background-color:black;
-    width:200vh;
+    width:100%;
     height:1em;
-    
+    margin:0;
     border:1px solid black;
     color:red;
     font-size:40px;
@@ -70,9 +76,89 @@ img{
 
 
 @media only screen and (max-width: 600px) {
-    img {
-        max-block-size: 100px;
-        width: 5em;
-        height: 10em;
+
+    body {
+        font-family: sans-serif;
+        background-color: black;
+        margin: 0%;
+        
     }
+    
+    
+    zoom {
+        max-block-size: 80px;
+        width: 20px;
+        height: 12px;
+    }
+
+    .netflix1 {
+        display: flex;
+        flex-direction: column;
+        column-gap: 2em;
+        margin-left: 8%;
+        margin-top: 5em;
+        color: white;
+        align-content: center;
+        align-items: center;
+        justify-content: center;
+        justify-items: center;
+    }
+
+    .netflix2 {
+        display: flex;
+        flex-direction: column;
+        column-gap: 2em;
+        margin-left: 8%;
+        color: white;
+        align-content: center;
+        align-items: center;
+        justify-content: center;
+        justify-items: center;
+    }
+
+}
+
+@media only screen and (max-width: 400px) {
+
+    body {
+        font-family: sans-serif;
+        background-color: black;
+        margin: 0%;
+        display:block;
+        width:100%;
+    }
+
+
+    zoom {
+        max-block-size: 100px;
+        width: 20px;
+        height: 12px;
+    }
+
+    .netflix1 {
+        display: flex;
+        flex-direction: column;
+        column-gap: 2em;
+        margin-left: 8%;
+        margin-top: 5em;
+        color: white;
+        align-content: center;
+        align-items: center;
+        justify-content: center;
+        justify-items: center;
+    }
+
+    .netflix2 {
+        display: flex;
+        flex-direction: column;
+        column-gap: 2em;
+        margin-left: 8%;
+        color: white;
+        align-content: center;
+        align-items: center;
+        justify-content: center;
+        justify-items: center;
+    }
+
+
 }
