@@ -12,23 +12,23 @@ function App() {
           
                 <div className="netflix1">
                 <Cards imgsrc="https://asianwiki.com/images/d/d9/Start-Up-CP1.jpg"
-                links="https://www.netflix.com/in/title/81290293"
+                    links="https://filmlinks4u.pro/start-up-2020-season-1-hindi-dubbed-netflix-movie-online-on-filmlinks4u/v"
                 sname="Start-UP" />
 
                 <Cards imgsrc="https://m.media-amazon.com/images/M/MV5BNTBlZmE4YzItNTY5Mi00NmIxLTlhZTAtOWIxNjFlNTMzNmI1XkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_.jpg"
-                    links="https://www.netflix.com/in/title/80180171"
+                    links="https://yomovies.mx/episode/the-last-kingdom-season-1-episode-5"
                  sname="KingDom" />
 
                 <Cards imgsrc="https://i.pinimg.com/originals/da/cf/7a/dacf7adf184e48076524688d0ee48dd3.jpg"
-                    links="https://www.netflix.com/in/title/80057918"
+                    links="https://yomovies.is/lucifer-2015-season-1-hindi-dubbed-netflix-Watch-online-full-movie/"
                   sname="Lucifer" />
 
                 <Cards imgsrc="https://m.media-amazon.com/images/M/MV5BMDQ2YjVmYTktMWM2ZS00MzM5LWE4MDgtNWE0ZTJjNmU5NjJlXkEyXkFqcGdeQXVyMTA3MzQ4MTc0._V1_.jpg"
-                    links="https://www.netflix.com/in/title/80192098"
+                    links="https://yomovies.is/money-heist-2017-season-1-hindi-dubbed-netflix-Watch-online-full-movie/"
                     sname="Money Heiest" />
                   
                 <Cards imgsrc="https://m.media-amazon.com/images/M/MV5BNTNhY2JlMmItMGMzZi00ZTM2LTlmNTItZDBkMGVhNGJhYWRhXkEyXkFqcGdeQXVyMTEyMjM2NDc2._V1_UY1200_CR165,0,630,1200_AL_.jpg"
-                    links="https://www.netflix.com/in/title/80236319"
+                    links="https://yomovies.is/shadow-and-bone-2021-season-1-hindi-dubbed-netflix-Watch-online-full-movie/"
                     sname="Shadow And Bones" />
             </div>
 
@@ -42,7 +42,7 @@ function App() {
                     sname="Arrow" />
 
                 <Cards imgsrc="https://filmdaily.co/wp-content/uploads/2019/04/Leade-Image-1300x1926.jpg"
-                    links="https://www.netflix.com/in/title/80223989"
+                    links="https://yomovies.is/series/the-chilling-adventures-of-sabrina-season-1/"
                     sname="Sabrina Netflix Series" />
 
                 <Cards imgsrc="https://www.assignmentx.com/wp-content/uploads/2020/07/THE-OLD-GUARD-poster.jpg"
@@ -76,9 +76,9 @@ function App() {
                     links=""
                     sname="Sexify" />
 
-                <Cards imgsrc="https://occ-0-299-300.1.nflxso.net/dnm/api/v6/XsrytRUxks8BtTRf9HNlZkW2tvY/AAAABSvvooam8iI8tMDF59kkXvRmBpEpJZ1JkewzsvFpBa-0V8EYZTXGoUETCfbl26FvP-op089IAydGQXO75nWwOlMbr32TaEhbQiW5riSc7Fm4otcRoF8rvUp-jPOEkBeTQEoVUchGLLWdIEAY11XOj5uldBwt3ik.jpg"
-                    links=""
-                    sname="Sex Education" />
+                <Cards imgsrc="https://m.media-amazon.com/images/M/MV5BN2M3MmI4ZTktZTNjNS00OTAwLWJkMjMtZjFhNTQwNjQ2ODZhXkEyXkFqcGdeQXVyMTA4NjE0NjEy._V1_FMjpg_UY226_.jpg"
+                    links="https://0gomovies.li/movie/watch-call-me-by-your-name-2017-free-movie-online-gomovies/watching/"
+                    sname="call me by your name" />
 
             </div>
             </React.Fragment>
