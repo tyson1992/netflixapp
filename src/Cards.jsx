@@ -25,11 +25,13 @@ function topbar() {
         <React.Fragment> 
             <div>
                 <div>
-                    <h2>Netflix</h2>
+                    <h2></h2>
                     </div>
                 </div>
         </React.Fragment>
         );
 }
 
-export { Cards, topbar };
+
+
+export { Cards, topbar};

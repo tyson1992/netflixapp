@@ -11,19 +11,18 @@ body{
 
 
 
-.netflix1{
-    
-    display:flex;
-    flex-direction:row;
-    column-gap:2em;
-    margin-left:8%;
-    margin-top:5em;
-    color:white;
-    align-content:center;
-    align-items:center;
-    justify-content:flex-start;
-    justify-items:center;
-   
+.netflix1 {
+    display: flex;
+    flex-direction: row;
+    column-gap: 2em;
+    margin-left: 8%;
+    margin-top: 5em;
+    color: white;
+    align-content: center;
+    align-items: center;
+    justify-content: flex-start;
+    justify-items: center;
+    width: 40%;
 }
 
 .netflix2 {
@@ -36,6 +35,7 @@ body{
     align-items: center;
     justify-content: flex-start;
     justify-items: center;
+    width:40%;
 }
 
 .cardblock {
@@ -48,8 +48,6 @@ body{
     .cardblock:hover {
         transform: scale(1.2);
     }
-
-
 
 .zoom{
 
@@ -118,8 +116,10 @@ body{
 
 }
 
-@media only screen and (max-width: 400px) {
 
+
+
+@media only screen and (max-width: 400px) {
     body {
         font-family: sans-serif;
         background-color: black;
@@ -160,5 +160,11 @@ body{
         justify-items: center;
     }
 
+
+}
+
+img{
+
+    border-radius:1em;
 
 }

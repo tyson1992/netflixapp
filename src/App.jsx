@@ -1,5 +1,5 @@
 import React from 'react';
-import { Cards,topbar } from './Cards';
+import { Cards, topbar } from './Cards';
 import './index.css';
 
 
@@ -8,7 +8,8 @@ function App() {
 
     return (
         <React.Fragment>
-            <div className="topBar">Netflix{topbar}</div>
+            <div className="topBar">Netflix{topbar()}</div>
+          
                 <div className="netflix1">
                 <Cards imgsrc="https://asianwiki.com/images/d/d9/Start-Up-CP1.jpg"
                 links="https://www.netflix.com/in/title/81290293"
@@ -34,7 +35,7 @@ function App() {
 
             <br /><br />
 
-
+            
             <div className="netflix2">
                 <Cards imgsrc="http://1.bp.blogspot.com/-pw7YL3IfAbM/UZ55dRBuBgI/AAAAAAAAlyk/BgRxs6WsvTc/s1600/arrow.jpg"
                     links="https://www.netflix.com/in/title/70242081"
@@ -55,9 +56,31 @@ function App() {
                 <Cards imgsrc="https://i.pinimg.com/originals/68/e2/73/68e27392087afcef74b88a3cfcd2e346.jpg"
                     links="https://www.netflix.com/title/80025678"
                     sname="The Crown" />
-            </div> 
+                </div>
 
+            <div className="netflix2">
 
+                <Cards imgsrc="https://images.saymedia-content.com/.image/t_share/MTc2ODA1MTA5NzMxNTAyMDIy/shows-like-brooklyn-nine-nine.jpg"
+                    links=""
+                    sname="Broklyn-Nine-Nine" />
+
+                <Cards imgsrc="https://i.pinimg.com/474x/f3/de/92/f3de92bad1210617169309e065f990d9.jpg"
+                    links=""
+                    sname="Peaky Blinders" />
+
+                <Cards imgsrc="https://i.pinimg.com/originals/8e/a1/c5/8ea1c555470888be677b53725bf49bb3.jpg"
+                    links=""
+                    sname="The Originals "/>
+
+                <Cards imgsrc="https://zupimages.net/up/21/17/ypui.jpg"
+                    links=""
+                    sname="Sexify" />
+
+                <Cards imgsrc="https://occ-0-299-300.1.nflxso.net/dnm/api/v6/XsrytRUxks8BtTRf9HNlZkW2tvY/AAAABSvvooam8iI8tMDF59kkXvRmBpEpJZ1JkewzsvFpBa-0V8EYZTXGoUETCfbl26FvP-op089IAydGQXO75nWwOlMbr32TaEhbQiW5riSc7Fm4otcRoF8rvUp-jPOEkBeTQEoVUchGLLWdIEAY11XOj5uldBwt3ik.jpg"
+                    links=""
+                    sname="Sex Education" />
+
+            </div>
             </React.Fragment>
 
         );
